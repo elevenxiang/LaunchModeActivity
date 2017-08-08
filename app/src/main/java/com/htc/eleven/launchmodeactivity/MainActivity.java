@@ -30,5 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, SubActivity.class));
             }
         });
+
+        // TODO: 17-8-7 , need add more widget here.
     }
 }

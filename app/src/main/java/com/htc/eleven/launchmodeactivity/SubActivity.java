@@ -15,7 +15,7 @@ public class SubActivity extends AppCompatActivity {
 
         TextView tv = (TextView) findViewById(R.id.text_view);
 
-        tv.setText(String.format("Current Task ID: %d\n, Activity info: %s ! ", getTaskId(), toString()));
+        tv.setText(String.format("Current Task ID: %d\nActivity info: %s ! ", getTaskId(), toString()));
 
         findViewById(R.id.btnStartMainActivity).setOnClickListener(new View.OnClickListener() {
             @Override
